@@ -9,20 +9,20 @@ global.zApiKey = {// if this API key get expired then please go to https://www.f
 
 
 global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
+global.author = process.env.Author || "drk_x_444" 
 global.packname = process.env.PackName || "Queen Anya v2 MD" 
 global.myweb = process.env.Web || "https://github.com/PikaBotz" 
 global.footer = process.env.Footer || "© Queen Anya Bot" 
-global.prefa = process.env.Prefix || ['-'] 
+global.prefa = process.env.Prefix || ['.'] 
 global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
-global.adress = process.env.Continent || "Asia, India, Assam" 
-global.timezone = process.env.TimeZone || "Asia/Kolkata" 
+global.ownername = process.env.Owner_Name || "🍃⃝⃕𝘿 𝙝 𝙖 𝙫 𝙚 _ 🐣  🌿  ♥️" 
+global.ownernumber = process.env.Owner_Number || "94721487168" 
+global.adress = process.env.Continent || "Asia,colombo" 
+global.timezone = process.env.TimeZone || "Asia/Colombo" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
 global.email = process.env.Email_Id || "example@example.com" 
 
-global.mongoUrl = process.env.MongoDB || "Enter"; 
+global.mongoUrl = process.env.MongoDB || "mongodb+srv://salmanytofficial:s4salmanyt@cluster0.6wtgil3.mongodb.net/?retryWrites=true&w=majority"; 
 
 global.warns = process.env.Warns_Limits || 3; 
 
@@ -102,29 +102,29 @@ global.message = {
 
 module.exports = {
   botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
+  author: process.env.Author || "@drk_x_444",
   packname: process.env.PackName || "Queen Anya v2 MD",
   myweb: process.env.Web || "https://github.com/PikaBotz",
   footer: process.env.Footer || "© Queen Anya Bot",
-  prefa: process.env.Prefix || ['-'],
+  prefa: process.env.Prefix || ['.'],
   themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
-  adress: process.env.Continent || "Asia, India, Assam",
-  timezone: process.env.TimeZone || "Asia/Kolkata", 
+  ownername: process.env.Owner_Name || "🍃⃝⃕𝘿 𝙝 𝙖 𝙫 𝙚 _ 🐣  🌿  ♥️",
+  ownernumber: process.env.Owner_Number || "94721487168",
+  adress: process.env.Continent || "Asia, Colombo",
+  timezone: process.env.TimeZone || "Asia/Colombo", 
   instagramId: process.env.Insta || "8.08_only_mine",
   email: process.env.Email_Id || "example@example.com",
   warns: process.env.Warns_Limits || 3,
-  mongoUrl: process.env.MongoDB || "Enter",
+  mongoUrl: process.env.MongoDB || "mongodb+srv://salmanytofficial:s4salmanyt@cluster0.6wtgil3.mongodb.net/?retryWrites=true&w=majority",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
-  sessionId: process.env.SESSION_ID || "Queen Anya", 
-  auto_read_status : process.env.AUTO_READ_STATUS || "true",
-  alwaysonline: process.env.ALWAYS_ONLINE || "true", 
+  sessionId: process.env.SESSION_ID || "UWsx_Queen-Anya_NEx_Queen-Anya_taXI=", 
+  auto_read_status : process.env.AUTO_READ_STATUS || "false",
+  alwaysonline: process.env.ALWAYS_ONLINE || "false", 
   readmessage: process.env.READ_MESSAGE || "true", 
-  auto_status_saver: process.env.AUTO_STATUS_SAVER || "true",
+  auto_status_saver: process.env.AUTO_STATUS_SAVER || "false",
   image_1: readFileSync('./lib/Assets/image_1.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./lib/Assets/image_2.jpg'), // null image
   image_3: readFileSync("./lib/Assets/image_3.jpg"), // Thumbnail for Dashboard
